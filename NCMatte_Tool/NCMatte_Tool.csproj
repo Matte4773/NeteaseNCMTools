@@ -8,12 +8,13 @@
     <ProjectGuid>{C4EA575F-8252-4465-86BD-672E9BC76EB5}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>NCMatte_Tool</RootNamespace>
-    <AssemblyName>NCM转换工具</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AssemblyName>NCM Tools</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

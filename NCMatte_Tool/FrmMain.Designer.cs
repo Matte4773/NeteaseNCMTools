@@ -41,15 +41,18 @@
             // FrmMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.CaptionColor = System.Drawing.Color.Aqua;
+            this.CaptionColor = System.Drawing.Color.Red;
             this.ClientSize = new System.Drawing.Size(512, 352);
+            this.ControlBox = false;
             this.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmMain";
             this.Padding = new System.Windows.Forms.Padding(18);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "NCM转换工具 By Matte4773 Ver:1.4";
+            this.Text = "NCM To MP3/FLAC Tools By Matte4773 Ver 114514";
+            this.Load += new System.EventHandler(this.FrmMain_Load);
             this.ResumeLayout(false);
 
         }

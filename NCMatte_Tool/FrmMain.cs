@@ -169,7 +169,7 @@ namespace NCMatte_Tool
                     {
                         e.Dump();
                     }
-                    catch (Exception ex)
+                    catch (Exception)
                     {
                         throw;
                     }
@@ -201,6 +201,11 @@ namespace NCMatte_Tool
                 _files.Clear();
                 Invalidate();
             }
+        }
+
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
