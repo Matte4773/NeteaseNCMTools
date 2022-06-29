@@ -51,7 +51,7 @@
             this.Name = "FrmMain";
             this.Padding = new System.Windows.Forms.Padding(18);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "NCM To MP3/FLAC Tools By Matte4773 Ver 114514";
+            this.Text = "NCM To MP3 Tools 1.7";
             this.Load += new System.EventHandler(this.FrmMain_Load);
             this.ResumeLayout(false);
 
